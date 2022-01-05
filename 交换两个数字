@@ -1,0 +1,7 @@
+#不使用第三个变量，交换a和b的值
+a_input=input('a=')
+b_input=input('b=')
+
+a,b=int(b_input),int(a_input)
+print('a='+str(a))
+print('b='+str(b))
